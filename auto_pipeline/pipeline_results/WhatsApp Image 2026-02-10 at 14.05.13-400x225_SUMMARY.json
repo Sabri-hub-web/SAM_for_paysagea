@@ -1,0 +1,120 @@
+{
+  "pipeline_info": {
+    "date": "2026-02-12T14:16:50.238067",
+    "total_time": "88.97s"
+  },
+  "input": {
+    "original_file": "WhatsApp Image 2026-02-10 at 14.05.13.jpeg",
+    "original_size": [
+      1600,
+      901
+    ]
+  },
+  "preprocessing": {
+    "resized_size": [
+      400,
+      225
+    ],
+    "scale": 0.25,
+    "orientation": "landscape"
+  },
+  "segmentation": {
+    "num_segments": 29,
+    "format": "rle"
+  },
+  "statistics": {
+    "area_mean": 2.88,
+    "area_median": 0.58,
+    "area_min": 0.02,
+    "area_max": 37.84,
+    "distribution": {
+      "tiny (<1%)": 18,
+      "small (1-5%)": 6,
+      "medium (5-20%)": 4,
+      "large (>20%)": 1
+    }
+  },
+  "top_segments": [
+    {
+      "id": 0,
+      "area_percent": 37.84,
+      "bbox": [
+        0.0,
+        0.5733,
+        1.0,
+        0.4267
+      ],
+      "centroid": [
+        0.4926,
+        0.8001
+      ]
+    },
+    {
+      "id": 1,
+      "area_percent": 9.28,
+      "bbox": [
+        0.685,
+        0.0267,
+        0.315,
+        0.4
+      ],
+      "centroid": [
+        0.8617,
+        0.2563
+      ]
+    },
+    {
+      "id": 2,
+      "area_percent": 8.21,
+      "bbox": [
+        0.1775,
+        0.3289,
+        0.3825,
+        0.2756
+      ],
+      "centroid": [
+        0.3775,
+        0.4581
+      ]
+    },
+    {
+      "id": 3,
+      "area_percent": 6.73,
+      "bbox": [
+        0.49,
+        0.0,
+        0.21,
+        0.4489
+      ],
+      "centroid": [
+        0.5879,
+        0.1798
+      ]
+    },
+    {
+      "id": 4,
+      "area_percent": 5.3,
+      "bbox": [
+        0.6825,
+        0.4133,
+        0.3175,
+        0.2356
+      ],
+      "centroid": [
+        0.8655,
+        0.5117
+      ]
+    }
+  ],
+  "outputs": {
+    "preprocess_json": "WhatsApp Image 2026-02-10 at 14.05.13-400x225_preprocessed.json",
+    "sam_json": "WhatsApp Image 2026-02-10 at 14.05.13-400x225_sam_output.json",
+    "visualizations": [
+      "WhatsApp Image 2026-02-10 at 14.05.13-400x225_01_preprocessed.png",
+      "WhatsApp Image 2026-02-10 at 14.05.13-400x225_02_all_segments.png",
+      "WhatsApp Image 2026-02-10 at 14.05.13-400x225_03_segments_with_ids.png",
+      "WhatsApp Image 2026-02-10 at 14.05.13-400x225_04_bounding_boxes.png",
+      "WhatsApp Image 2026-02-10 at 14.05.13-400x225_05_comparison.png"
+    ]
+  }
+}

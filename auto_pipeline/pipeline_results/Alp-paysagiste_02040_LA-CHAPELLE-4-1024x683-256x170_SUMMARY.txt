@@ -1,0 +1,28 @@
+============================================================
+RÉSUMÉ DU PIPELINE - PREPROCESS → SAM
+============================================================
+
+📅 Date : 2026-02-10T12:56:18.471380
+⏱️  Temps total : 169.29s
+
+📸 IMAGE ORIGINALE
+  • Fichier : Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683.jpg
+  • Taille : 1024x683
+
+🔄 PREPROCESSING
+  • Taille finale : 256x170
+  • Scale : 0.25
+
+🎯 SEGMENTATION SAM
+  • Segments : 84
+
+📊 STATISTIQUES
+  • Aire moyenne : 0.68%
+  • Plus grand : 6.47%
+
+🏆 TOP 5 SEGMENTS
+  1. Segment #0 : 6.47%
+  2. Segment #1 : 4.75%
+  3. Segment #2 : 4.51%
+  4. Segment #3 : 3.85%
+  5. Segment #4 : 3.21%

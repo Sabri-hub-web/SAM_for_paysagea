@@ -1,0 +1,120 @@
+{
+  "pipeline_info": {
+    "date": "2026-02-10T12:56:18.471380",
+    "total_time": "169.29s"
+  },
+  "input": {
+    "original_file": "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683.jpg",
+    "original_size": [
+      1024,
+      683
+    ]
+  },
+  "preprocessing": {
+    "resized_size": [
+      256,
+      170
+    ],
+    "scale": 0.25,
+    "orientation": "landscape"
+  },
+  "segmentation": {
+    "num_segments": 84,
+    "format": "rle"
+  },
+  "statistics": {
+    "area_mean": 0.68,
+    "area_median": 0.19,
+    "area_min": 0.02,
+    "area_max": 6.47,
+    "distribution": {
+      "tiny (<1%)": 70,
+      "small (1-5%)": 13,
+      "medium (5-20%)": 1,
+      "large (>20%)": 0
+    }
+  },
+  "top_segments": [
+    {
+      "id": 0,
+      "area_percent": 6.47,
+      "bbox": [
+        0.2891,
+        0.1882,
+        0.2617,
+        0.3412
+      ],
+      "centroid": [
+        0.4212,
+        0.356
+      ]
+    },
+    {
+      "id": 1,
+      "area_percent": 4.75,
+      "bbox": [
+        0.0,
+        0.0,
+        0.543,
+        0.1412
+      ],
+      "centroid": [
+        0.2651,
+        0.0462
+      ]
+    },
+    {
+      "id": 2,
+      "area_percent": 4.51,
+      "bbox": [
+        0.0,
+        0.0588,
+        0.2422,
+        0.2235
+      ],
+      "centroid": [
+        0.1066,
+        0.1788
+      ]
+    },
+    {
+      "id": 3,
+      "area_percent": 3.85,
+      "bbox": [
+        0.2266,
+        0.0529,
+        0.3359,
+        0.2882
+      ],
+      "centroid": [
+        0.3842,
+        0.1848
+      ]
+    },
+    {
+      "id": 4,
+      "area_percent": 3.21,
+      "bbox": [
+        0.0,
+        0.1353,
+        0.2422,
+        0.1471
+      ],
+      "centroid": [
+        0.1159,
+        0.2075
+      ]
+    }
+  ],
+  "outputs": {
+    "preprocess_json": "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_preprocessed.json",
+    "sam_json": "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_sam_output.json",
+    "visualizations": [
+      "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_01_preprocessed.png",
+      "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_02_all_segments.png",
+      "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_03_segments_with_ids.png",
+      "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_04_bounding_boxes.png",
+      "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170_05_comparison.png"
+    ]
+  }
+}

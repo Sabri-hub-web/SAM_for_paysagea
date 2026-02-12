@@ -1,0 +1,19 @@
+{
+  "version": "preprocess_v1",
+  "image_id": "sha256:281853dcfc68eb44",
+  "preprocessed_filename": "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683-256x170.jpg",
+  "preprocess": {
+    "original_filename": "Alp-paysagiste_02040_LA-CHAPELLE-4-1024x683.jpg",
+    "original_size": [
+      1024,
+      683
+    ],
+    "resized_size": [
+      256,
+      170
+    ],
+    "orientation": "landscape",
+    "scale": 0.25,
+    "exif_orientation": 1
+  }
+}
