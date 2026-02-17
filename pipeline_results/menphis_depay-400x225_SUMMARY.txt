@@ -1,0 +1,28 @@
+============================================================
+RÉSUMÉ DU PIPELINE - PREPROCESS → SAM
+============================================================
+
+📅 Date : 2026-02-17T17:09:43.352058
+⏱️  Temps total : 93.98s
+
+📸 IMAGE ORIGINALE
+  • Fichier : menphis_depay.jpeg
+  • Taille : 1600x901
+
+🔄 PREPROCESSING
+  • Taille finale : 400x225
+  • Scale : 0.25
+
+🎯 SEGMENTATION SAM
+  • Segments : 29
+
+📊 STATISTIQUES
+  • Aire moyenne : 2.88%
+  • Plus grand : 37.84%
+
+🏆 TOP 5 SEGMENTS
+  1. Segment #0 : 37.84%
+  2. Segment #1 : 9.28%
+  3. Segment #2 : 8.21%
+  4. Segment #3 : 6.73%
+  5. Segment #4 : 5.3%
